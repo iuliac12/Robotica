@@ -1,12 +1,10 @@
-Tema 1: EV Charger
+# Tema 1: EV Charger
+În cadrul acestui proiect, vom simula funcționarea unei stații de încărcare pentru un vehicul electric, utilizând mai multe LED-uri și butoane pentru a reflecta diferitele etape ale procesului de încărcare. Sistemul va gestiona interacțiunile cu utilizatorul prin intermediul butoanelor, implementând mecanisme de debouncing pentru a asigura fiabilitatea în detectarea stărilor acestora.
 
 <details>
   <summary><b>Descriere</b></summary>
-  
-  ## 1. Cerință:
-  În cadrul acestui proiect, vom simula funcționarea unei stații de încărcare pentru un vehicul electric, utilizând mai multe LED-uri și butoane pentru a reflecta diferitele etape ale procesului de încărcare. Sistemul va gestiona interacțiunile cu utilizatorul prin intermediul butoanelor, implementând mecanisme de debouncing pentru a asigura fiabilitatea în detectarea stărilor acestora.
 
-  ## 2. Detalii tehnice:
+  ## 1. Detalii tehnice:
   Led-ul RGB reprezintă disponibilitatea stației. Dacă stația este liberă led-ul va fi verde, iar dacă stația este ocupată se va face roșu.
 
   Led-urile simple reprezintă gradul de încărcare al bateriei, pe care îl vom simula printr-un loader progresiv (L1 = 25%, L2 = 50%, L3 = 75%, L4 = 100%). Loader-ul se încarcă prin aprinderea succesivă a led-urilor, la un interval fix de 3s. LED-ul care semnifică procentul curent de încărcare va avea starea de clipire, LED-urile din urma lui fiind aprinse continuu, iar celelalte stinse.
@@ -15,7 +13,7 @@ Tema 1: EV Charger
 
   Apăsarea lungă a butonului de stop va opri încărcarea forțat și va reseta stația la starea liberă. Apăsarea acestui buton cât timp stația este liberă nu va face nimic.
 
-  ## 3. Flow:
+  ## 2. Flow:
   Starea stației este ‘liberă’. Loader-ul este stins, iar led-ul pentru disponibilitate este verde.
 
   Se apasă butonul pentru start.
