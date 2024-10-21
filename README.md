@@ -51,6 +51,7 @@
   <summary> <b> Schema electrica </b> </summary>
 
   ## Schema electrica a circuitului
+  ![setup](https://github.com/user-attachments/assets/9e0892b0-428a-4b1a-aafd-666db2830bd4)
 
   
 </details>
