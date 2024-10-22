@@ -5,30 +5,28 @@
   <summary><b>Descriere</b></summary>
 
   ## 1. Detalii tehnice:
-  Led-ul RGB reprezintă disponibilitatea stației. Dacă stația este liberă led-ul va fi verde, iar dacă stația este ocupată se va face roșu.
-
-  Led-urile simple reprezintă gradul de încărcare al bateriei, pe care îl vom simula printr-un loader progresiv (L1 = 25%, L2 = 50%, L3 = 75%, L4 = 100%). Loader-ul se încarcă prin aprinderea succesivă a led-urilor, la un interval fix de 3s. LED-ul care semnifică procentul curent de încărcare va avea starea de clipire, LED-urile din urma lui fiind aprinse continuu, iar celelalte stinse.
-
-  Apăsarea scurtă a butonului de start va porni încărcarea. Apăsarea acestui buton în timpul încărcării nu va face nimic.
-
-  Apăsarea lungă a butonului de stop va opri încărcarea forțat și va reseta stația la starea liberă. Apăsarea acestui buton cât timp stația este liberă nu va face nimic.
+  LED RGB: Indică starea stației.
+  - Verde: Stația este liberă.
+  - Roșu: Stația este ocupată.
+LED-uri simple (L1, L2, L3, L4): Semnalizează nivelul de încărcare al bateriei.
+  - L1: 25%
+  - L2: 50%
+  - L3: 75%
+  - L4: 100%
+Funcționare LED-uri:
+  - LED-urile se activează la un interval de 3 secunde.
+  - LED-ul corespunzător nivelului curent de încărcare clipește, în timp ce cele anterioare rămân aprinse.
+Buton de control:
+  - Start: Pornește încărcarea. Dacă este apăsat în timpul încărcării, nu are efect.
+  - Stop: Oprește încărcarea forțat și resetează stația. Nu are efect dacă stația este liberă.
 
   ## 2. Flow:
-  Starea stației este ‘liberă’. Loader-ul este stins, iar led-ul pentru disponibilitate este verde.
+  La început, stația se află în starea „liberă”, cu LED-ul verde activat și loader-ul stins. Când utilizatorul apasă butonul de start, LED-ul de disponibilitate devine roșu, semnalizând că stația este ocupată, iar încărcarea începe prin aprinderea LED-ului L1, care va clipește timp de 3 secunde.
 
-  Se apasă butonul pentru start.
+După această perioadă, L1 rămâne aprins, iar L2 începe să clipească. Procesul de activare continuă până când toate LED-urile indică o încărcare de 100%. Odată ce încărcarea este completă, toate LED-urile clipesc simultan de 3 ori pentru a semnala terminarea procesului, după care se sting și LED-ul de disponibilitate revine la verde.
 
-  Led-ul pentru disponibilitate se face roșu, iar încărcarea începe prin aprinderea primului LED L1.
+Dacă butonul de stop este apăsat lung în timpul încărcării, aceasta se va opri imediat, activând animația de final (toate LED-urile clipesc de 3 ori) și resetând stația la starea „liberă”, cu LED-ul verde. Apăsarea butonului de stop când stația este liberă nu va produce efecte.
 
-  Led-ul 1 clipește timp de 3s, celelalte fiind stinse.
-
-  După încărcarea primului procent de 25% led-ul rămâne aprins și se trece la următorul led, care va începe să clipească.
-
-  La finalizarea încărcării toate led-urile vor clipi simultan de 3 ori, iar apoi se vor stinge, pentru a semnaliza finalizarea procesului.
-
-  Led-ul pentru disponibilitate se face verde.
-
-  Dacă oricând de la pornirea încărcării până la finalizarea acesteia este apăsat lung (min 1s) butonul de stop, încărcarea se întrerupe prin animația de final (toate led-urile clipesc de 3 ori), iar led-ul pentru disponibilitate devine verde.
 
 </details>
 
@@ -50,7 +48,7 @@
 <details>
   <summary> <b> Schema electrica </b> </summary>
 
-  ## Schema electrica a circuitului
+  ## Schema electrica a circuitului in TinkerCAD 
   ![setup](https://github.com/user-attachments/assets/9e0892b0-428a-4b1a-aafd-666db2830bd4)
 
   
