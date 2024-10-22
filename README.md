@@ -8,14 +8,17 @@
   LED RGB: Indică starea stației.
   - Verde: Stația este liberă.
   - Roșu: Stația este ocupată.
+  - 
 LED-uri simple (L1, L2, L3, L4): Semnalizează nivelul de încărcare al bateriei.
   - L1: 25%
   - L2: 50%
   - L3: 75%
   - L4: 100%
+  - 
 Funcționare LED-uri:
   - LED-urile se activează la un interval de 3 secunde.
   - LED-ul corespunzător nivelului curent de încărcare clipește, în timp ce cele anterioare rămân aprinse.
+  - 
 Buton de control:
   - Start: Pornește încărcarea. Dacă este apăsat în timpul încărcării, nu are efect.
   - Stop: Oprește încărcarea forțat și resetează stația. Nu are efect dacă stația este liberă.
