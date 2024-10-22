@@ -61,7 +61,10 @@
   <summary> <b> Setup </b> </summary>
   
   ## Poze cu montajul:
-  
+  ![setup1](https://github.com/user-attachments/assets/b3647c80-f51f-4903-9506-825c08fea1bb)
+  ![setup2](https://github.com/user-attachments/assets/ac2cfd8e-2514-4446-813e-46794dd36e47)
+  ![setup3](https://github.com/user-attachments/assets/5ae396f1-88af-4437-8e3e-5b6afec00699)
+
 
 </details>
 
