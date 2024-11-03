@@ -47,7 +47,7 @@ Proiectul constă în dezvoltarea unui joc de tastare rapidă, similar cu TypeRa
   <summary> <b> Schema electrica </b> </summary>
 
   ## Schema electrica a circuitului in TinkerCAD 
-    ![setup2](https://github.com/user-attachments/assets/5d5614e6-b64c-4fd0-82d5-58021104ddc0)
+  ![setup2](https://github.com/user-attachments/assets/c19ca2a5-95ee-439c-a3b2-e99b1dc102a4)
 
   
 </details>
