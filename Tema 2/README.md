@@ -35,7 +35,7 @@ Proiectul constă în dezvoltarea unui joc de tastare rapidă, similar cu TypeRa
  ## Componente:
   - Arduino UNO (ATmega328P microcontroller)
   - 1x LED RGB (pentru a semnaliza dacă cuvântul corect e scris greșit sau nu)
-- - 2x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
+  - 2x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
   - 5x Rezistoare (3x 220/330 ohm, 2x 1000 ohm)
   - Breadbord
   - Fire de legătură
@@ -55,8 +55,10 @@ Proiectul constă în dezvoltarea unui joc de tastare rapidă, similar cu TypeRa
 
 <details>
   <summary> <b> Setup </b> </summary>
-  
   ## Poze cu montajul:
+  <img src="https://github.com/user-attachments/assets/8b9ab654-dda4-43c6-96a1-b0399b3dba56" alt="setup1" width="300">
+  <img src="https://github.com/user-attachments/assets/8c151673-9c18-4660-a71f-4092dd0ba063" alt="setup2" width="300">
+  <img src="https://github.com/user-attachments/assets/cc3c5603-1f7b-432f-b05a-37eb7ea7e9e5" alt="setup3" width="300">
 
 
 </details>
@@ -66,4 +68,5 @@ Proiectul constă în dezvoltarea unui joc de tastare rapidă, similar cu TypeRa
   <summary> <b> Video </b> </summary>
 
   ## Link:
+  https://drive.google.com/file/d/1S-G5NAloQxpgbFxmg5efKcf98vzXb3nL/view?usp=drivesdk 
 </details>
