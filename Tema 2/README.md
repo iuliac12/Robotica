@@ -55,7 +55,8 @@ Proiectul constă în dezvoltarea unui joc de tastare rapidă, similar cu TypeRa
 
 <details>
   <summary> <b> Setup </b> </summary>
-  ## Poze cu montajul:
+
+  
   <img src="https://github.com/user-attachments/assets/8b9ab654-dda4-43c6-96a1-b0399b3dba56" alt="setup1" width="300">
   <img src="https://github.com/user-attachments/assets/8c151673-9c18-4660-a71f-4092dd0ba063" alt="setup2" width="300">
   <img src="https://github.com/user-attachments/assets/cc3c5603-1f7b-432f-b05a-37eb7ea7e9e5" alt="setup3" width="300">
