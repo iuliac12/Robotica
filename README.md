@@ -9,3 +9,5 @@ Repo pentru cursul de Robotică.
 Tema 1 - [EV Charger](https://github.com/iuliac12/Robotica/tree/main/Tema%201)
 
 Tema 2 - [TypeRacer Game](https://github.com/iuliac12/Robotica/tree/main/Tema%202)
+
+Tema 3 - [Quick Time](https://github.com/iuliac12/Robotica/tree/main/Tema%203)
