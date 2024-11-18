@@ -9,17 +9,22 @@ Proiectul constă în crearea unui joc de reflexe destinat a doi jucători, în 
 Două plăci Arduino Uno: Una este configurată ca master și cealaltă ca slave, comunicând prin protocol SPI.
 
 LED-uri și Butoane:
-    - Fiecare jucător dispune de 3 LED-uri colorate (roșu, verde, albastru) și 3 butoane asociate.
+
+    - Fiecare jucător dispune de 3 LED-uri colorate (roșu, verde, albastru) și 3 butoane asociate
     - Un LED RGB indică culoarea activă pentru runda curentă.
 
 Ecran LCD:
+
     - Afișează punctajele jucătorilor în timp real.
+    
     - Mesaje personalizate, precum starea jocului și rezultatele finale.
 
 Servomotor:
+
     - Indică progresul jocului, rotindu-se pentru a semnala sfârșitul timpului alocat.
 
 Buzzer (opțional):
+
     - Sunete pentru răspunsuri corecte/greșite, începutul și finalul jocului.
 
   ## 2. Flow:
@@ -33,16 +38,23 @@ Buzzer (opțional):
   ## 3. Detalii tehnice:
 
 Arduino Master
+
     - Controlează LCD-ul, servomotorul și logica jocului.
+    
     - Menține punctajul și decide LED-ul RGB care trebuie aprins.
 
 Arduino Slave
+
     - Controlează butoanele și LED-urile.
+    
     - Comunică prin SPI cu master-ul pentru a primi culoarea activă și a raporta apăsările butoanelor.
 
  Elemente Opționale
+ 
     - Personalizare: introducerea numelui jucătorilor prin USART sau joystick-uri.
+    
     - Animații și Sunete: animații pe LCD sau LED-uri pentru începutul jocului / buzzer pentru feedback auditiv.
+    
     - Dificultate: posibilitatea de a ajusta durata rundelor sau viteza de apariție a culorilor.   
 
 </details>
