@@ -77,8 +77,8 @@ Arduino Slave
 <details>
   <summary> <b> Setup </b> </summary>
   <img src="https://github.com/user-attachments/assets/76587e1a-dc3d-444b-8b4b-6c72f263698b" alt="setup1" width="300">
-  <img src="https://github.com/user-attachments/assets/6865ca37-e844-417c-9f58-0112646ac3be" alt="setup2" width="300">
-  <img src="https://github.com/user-attachments/assets/7ca41c0e-e964-4710-9066-cd7153e8f110" alt="setup3" width="300">
+  <img src="https://github.com/user-attachments/assets/28b3cf5e-dd8a-4c1e-9ae1-aacf19f24d9f" alt="setup2" width="300">
+  <img src="https://github.com/user-attachments/assets/6865ca37-e844-417c-9f58-0112646ac3be" alt="setup3" width="500">
 
 
 </details>
