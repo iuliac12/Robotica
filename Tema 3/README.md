@@ -54,7 +54,7 @@ Arduino Slave
  ## Componente:
   - 6x LED-uri (2 grupuri de câte 3 leduri, în cadrul unui grup trebuie să avem culori diferite)
   - 2x LED RGB (1 pentru fiecare jucător)
-  - 6x butoane (3 pentru fiecare jucător)
+  - 7x butoane (3 pentru fiecare jucător, 1 de start)
   - 1x LCD
   - 1x servomotor
   - 2x Breadboard
@@ -69,12 +69,16 @@ Arduino Slave
   <summary> <b> Schema electrica </b> </summary>
 
   ## Schema electrica a circuitului in TinkerCAD 
-  
+  ![setup3](https://github.com/user-attachments/assets/cb5a29b7-58c8-46e0-9ccb-ad71499b481b)
+
 </details>
 
 
 <details>
   <summary> <b> Setup </b> </summary>
+  <img src="https://github.com/user-attachments/assets/76587e1a-dc3d-444b-8b4b-6c72f263698b" alt="setup1" width="300">
+  <img src="https://github.com/user-attachments/assets/6865ca37-e844-417c-9f58-0112646ac3be" alt="setup2" width="300">
+  <img src="https://github.com/user-attachments/assets/7ca41c0e-e964-4710-9066-cd7153e8f110" alt="setup3" width="300">
 
 
 </details>
