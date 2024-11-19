@@ -88,5 +88,6 @@ Arduino Slave
   <summary> <b> Video </b> </summary>
   
   ## Link:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fg7UXB8JGXM/0.jpg)](https://www.youtube.com/watch?v=fg7UXB8JGXM)
 
 </details>
